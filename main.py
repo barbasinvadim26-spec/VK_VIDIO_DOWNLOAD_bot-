@@ -17,7 +17,7 @@ from downloader import download_video
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-YOOMONEY_WALLET = "4100119679280686"
+YOOMONEY_WALLET = os.getenv("YOOMONEY_WALLET", "")
 ADMIN_ID = 12345678
 
 PRICE = 5
